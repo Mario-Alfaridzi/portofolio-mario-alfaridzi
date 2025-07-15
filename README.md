@@ -1,6 +1,6 @@
 # 🎨 Portofolio UI/UX - Mario Alfaridzi
 
-Ini adalah kumpulan hasil desain UI/UX yang telah saya kerjakan menggunakan Figma, terdiri dari 4 proyek utama. Desain ini menampilkan pengalaman saya dalam membuat prototype interaktif dan tampilan antarmuka yang bersih serta fungsional.
+Koleksi desain antarmuka interaktif berbasis Figma yang mencerminkan pengalaman saya dalam merancang solusi digital untuk berbagai kebutuhan—dari aplikasi layanan towing, sistem reservasi, POS cafe, hingga galeri foto online. Desain menekankan pada struktur informasi yang jelas, navigasi yang intuitif, dan estetika modern.
 
 🔗 **Link Figma Utama**:  
 [Klik untuk melihat prototype](https://www.figma.com/proto/8erpQ3z0JZzwtsm2nmOEd0/Portofolio-Mario-Alfaridzi?node-id=2-2)
