@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Kertanegara Tours</div> 
+        <ul class="nav-links" id="navLinks"> 
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#booking">Booking</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-icon" onclick="toggleMenu()">&#9776;</button>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1 class="animate__animated animate__fadeIn">Explore the World with Kertanegara Tours</h1>
+            <p class="animate__animated animate__fadeIn animate__delay-1s">
+                Find the best travel destinations and start your journey today.
+            </p>
+            <button class="animate__animated animate__fadeIn animate__delay-2s">
+                <a href="#destinations">Explore Now</a>
+            </button>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations">
+    <h2>Popular Destinations</h2>
+    <div class="destination-cards">
+        <div class="destination-card"> 
+            <img src="bali.jpg" alt="Bali" class="animate__animated animate__zoomIn">
+            <h3>Bali</h3>
+            <p>A tropical paradise with beautiful beaches and rich culture.</p>
+            <p class="price">$1,200</p>
+            <div class="facilities">
+                <h4>Facilities:</h4>
+                <p id="receiptFacilities">4-star hotel accommodation, Guided tour in Indonesian and English, Entry tickets to tourist attractions, Private transportation during the tour, Local and international cuisine.</p>
+            </div>
+            <div class="vehicle">
+                <h4>Vehicle Accommodation:</h4>
+                <p id="receiptVehicle">Transportation by private car with AC and an experienced driver.</p>
+            </div>
+        </div>
+        <div class="destination-card">
+            <img src="paris.jpeg" alt="Paris" class="animate__animated animate__zoomIn">
+            <h3>Paris</h3>
+            <p>The city of love, with iconic landmarks like the Eiffel Tower.</p>
+            <p class="price">$2,500</p>
+            <div class="facilities">
+                <h4>Facilities:</h4>
+                <p id="receiptFacilities">5-star hotel with full amenities, Private tour with a local guide, Admission to museums and main attractions, Comfortable sightseeing bus transportation, French culinary experience.</p>
+            </div>
+            <div class="vehicle">
+                <h4>Vehicle Accommodation:</h4>
+                <p id="receiptVehicle">Transportation by sightseeing bus with AC and Wi-Fi on board.</p>
+            </div>
+        </div>
+        <div class="destination-card">
+            <img src="newyork.jpeg" alt="New York" class="animate__animated animate__zoomIn">
+            <h3>New York</h3>
+            <p>A vibrant city known for its skyscrapers and Broadway shows.</p>
+            <p class="price">$1,800</p>
+            <div class="facilities">
+                <h4>Facilities:</h4>
+                <p id="receiptFacilities">4-star hotel accommodation in the city center, Tour to various iconic New York landmarks, Broadway show tickets, Public transportation or sightseeing bus within the city, American and international cuisine.</p>
+            </div>
+            <div class="vehicle">
+                <h4>Vehicle Accommodation:</h4>
+                <p id="receiptVehicle">Transportation by subway and sightseeing bus for efficient city travel.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="booking" class="booking">
+    <h2>Book Your Dream Trip</h2>
+    <div class="booking-form-container">
+        <form id="bookingForm" onsubmit="return validateBookingForm()" class="booking-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <select id="destination" required>
+                    <option value="" disabled selected>Select a Destination</option>
+                    <option value="Bali">Bali</option>
+                    <option value="Paris">Paris</option>
+                    <option value="New York">New York</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <input type="date" id="date" required>
+            </div>
+    
+            <div class="form-group">
+                <input type="number" id="people" placeholder="Number of People" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <p id="totalPrice">Total Price: $0</p>
+            </div>
+            <button type="submit">Book Now</button>
+        </form>
+
+        <div id="receipt" class="receipt" style="display: none;">
+            <h3>Booking Receipt</h3>
+            <p><strong>Name:</strong> <span id="receiptName"></span></p>
+            <p><strong>Email:</strong> <span id="receiptEmail"></span></p>
+            <p><strong>Destination:</strong> <span id="receiptDestination"></span></p>
+            <p><strong>Date:</strong> <span id="receiptDate"></span></p>
+            <p><strong>Number of People:</strong> <span id="receiptPeople"></span></p>
+            <p><strong>Total Price:</strong> <span id="receiptPrice"></span></p>
+            <button onclick="downloadReceipt()">Download Receipt</button>
+            <button onclick="window.location.reload()">Book Another</button>
+        </div>
+    </div>
+    <p id="bookingResponse" class="response"></p>
+</section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out.</p>
+        <p>Email: contact@kartanegaratours.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kartanegara Tours | Designed by Mario Alfaridzi</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</body>
+
+</html>

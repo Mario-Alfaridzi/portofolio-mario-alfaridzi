@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status Booking - BlackStudio77</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="status-container">
+        <h1>Status Booking</h1>
+        <p>Your booking status:</p>
+        <div id="bookingStatus"></div>
+        <button><a href="home.html">Back to Home</a></button>
+    </div>
+
+    <script>
+        // Example status check
+        var isBooked = true;  // Set this based on actual booking data
+        if (isBooked) {
+            document.getElementById('bookingStatus').innerHTML = '<p>Your booking is confirmed!</p>';
+        } else {
+            document.getElementById('bookingStatus').innerHTML = '<p>No booking found. Please book a session.</p>';
+        }
+    </script>
+</body>
+</html>
