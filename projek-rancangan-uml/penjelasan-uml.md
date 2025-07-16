@@ -9,3 +9,6 @@ Dalam pengembangan proyek ini, saya menerapkan pendekatan perancangan sistem ber
 Pendekatan ini tidak hanya mempermudah proses pengembangan, tetapi juga menjadi dokumentasi teknis yang kuat untuk pengembangan lebih lanjut.
 Kemampuan saya dalam membuat dan memahami diagram UML menunjukkan komitmen saya terhadap kualitas desain sistem yang solid dan profesional.
 Semua diagram dibuat menggunakan tools standar industri seperti draw.io untuk menjaga kualitas visual dan konsistensi dokumentasi.
+
+Berikut Link Drive :
+https://drive.google.com/drive/folders/1Zo1xvHSy1jm945R0mrsiWCMzk9pL046t?usp=drive_link
