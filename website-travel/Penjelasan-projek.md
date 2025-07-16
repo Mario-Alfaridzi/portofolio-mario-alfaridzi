@@ -19,3 +19,6 @@ Website ini memungkinkan pengguna untuk:
 - Frontend: HTML, CSS, JavaScript
 - Fitur : Reservasi perjalanan, dan cetak struk berbentuk pdf
 - Tools: VsCode
+
+Berikut Link Drive :
+https://drive.google.com/drive/folders/1lUTHE3KJJLIGyWB_79KJtqxK-VWdK2pp?usp=drive_link
