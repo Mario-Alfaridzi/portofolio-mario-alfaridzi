@@ -1,0 +1,234 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Kasir" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="350" y="128" width="275.5" height="1152" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="2">
+          <mxGeometry x="100" y="35" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="2" source="5" target="7">
+          <mxGeometry x="100" y="40" as="geometry">
+            <mxPoint x="115" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Membuka website&#xa;Portal admin/kasir" style="" vertex="1" parent="2">
+          <mxGeometry x="30" y="102" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-73" value="Memilih role kasir" style="" vertex="1" parent="2">
+          <mxGeometry x="57" y="167" width="130" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Mengakses halaman&#xa;menu" style="" vertex="1" parent="2">
+          <mxGeometry x="57" y="251" width="130" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Menambahkan pesanan&#xa;ke keranjang" style="" vertex="1" parent="2">
+          <mxGeometry x="44" y="345" width="156" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-48" value="Mengubah jumlah menu,&#xa;menambahkan catatan,&#xa;dan menghapus menu" style="" vertex="1" parent="2">
+          <mxGeometry x="54.86" y="460" width="165.78" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-49" value="Mengisikan data pesanan&#xa;nama dan no meja dan tipe&#xa;pesanan" style="" vertex="1" parent="2">
+          <mxGeometry x="54.86" y="572" width="165.78" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-50" value="Klik pesan" style="" vertex="1" parent="2">
+          <mxGeometry x="77.75" y="682" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-52" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="41Fwgu2SaF-__aRecN9b-48" target="41Fwgu2SaF-__aRecN9b-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255.5" y="690" as="sourcePoint" />
+            <mxPoint x="381.5" y="690" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-64" value="Mengisi total pembayaran" style="" vertex="1" parent="2">
+          <mxGeometry x="64.96000000000001" y="872" width="151.58" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-74" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="2" source="41Fwgu2SaF-__aRecN9b-73" target="8">
+          <mxGeometry x="-64.5" y="-88" as="geometry">
+            <mxPoint x="115.38" y="305" as="targetPoint" />
+            <mxPoint x="114.5" y="262" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" value="System" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="625.5" y="128" width="280" height="1152" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Menampilkan halaman portal" style="" vertex="1" parent="3">
+          <mxGeometry x="61" y="103" width="159" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-39" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3" target="41Fwgu2SaF-__aRecN9b-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.75" y="160" as="sourcePoint" />
+            <mxPoint x="-74.5" y="210.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="139.5" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Menampilkan halaman menu" style="" vertex="1" parent="3">
+          <mxGeometry x="74.5" y="289" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="Menampilkan halaman&#xa;pesanan" style="" vertex="1" parent="3">
+          <mxGeometry x="90.69999999999999" y="402" width="127.6" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Dine in/Takeaway?" style="rhombus;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="3">
+          <mxGeometry x="75.5" y="578" width="119" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-54" value="Menampilkan no meja" style="" vertex="1" parent="3">
+          <mxGeometry x="74.5" y="682" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-56" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3" source="21" target="41Fwgu2SaF-__aRecN9b-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="690" as="sourcePoint" />
+            <mxPoint x="136" y="690" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-57" value="Dine in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="41Fwgu2SaF-__aRecN9b-56">
+          <mxGeometry x="-0.233" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-55" value="Melewati No meja" style="" vertex="1" parent="3">
+          <mxGeometry x="75.5" y="732" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-58" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3" source="21" target="41Fwgu2SaF-__aRecN9b-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="760" as="sourcePoint" />
+            <mxPoint x="150" y="818" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220.5" y="606" />
+              <mxPoint x="220" y="694" />
+              <mxPoint x="220.5" y="751" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-59" value="Takeaway" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="41Fwgu2SaF-__aRecN9b-58">
+          <mxGeometry x="-0.233" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-62" value="Menampilkan input&#xa;input ulang pesanan&#xa;dan total pesanan" style="" vertex="1" parent="3">
+          <mxGeometry x="66.72000000000003" y="802" width="151.58" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-65" value="Menghitung total dan&#xa;kembalian pembayaran" style="" vertex="1" parent="3">
+          <mxGeometry x="68.42000000000002" y="932" width="151.58" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-68" value="Mencetak resi pembayaran" style="" vertex="1" parent="3">
+          <mxGeometry x="64.21000000000004" y="1012" width="160" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-70" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3" source="41Fwgu2SaF-__aRecN9b-65" target="41Fwgu2SaF-__aRecN9b-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1130" as="sourcePoint" />
+            <mxPoint x="30" y="880" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-71" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="3">
+          <mxGeometry x="129.20999999999998" y="1096" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-72" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3" source="41Fwgu2SaF-__aRecN9b-68" target="41Fwgu2SaF-__aRecN9b-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1270" as="sourcePoint" />
+            <mxPoint x="110" y="1380" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BbXIubX3LVWiSLpKOOiw-41" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="531" y="263" as="sourcePoint" />
+            <mxPoint x="645.5" y="262.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8" target="18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="472" y="444" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-40" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="779.75" y="528" as="sourcePoint" />
+            <mxPoint x="565.5" y="578.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-53" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="30" target="41Fwgu2SaF-__aRecN9b-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485.5" y="758" as="sourcePoint" />
+            <mxPoint x="485.5" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="622" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-47" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465.5" y="608" as="sourcePoint" />
+            <mxPoint x="715.5" y="638" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="472" y="559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-51" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="41Fwgu2SaF-__aRecN9b-49" target="21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="593.8" y="808" as="sourcePoint" />
+            <mxPoint x="843.8" y="838" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-60" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="41Fwgu2SaF-__aRecN9b-54" target="41Fwgu2SaF-__aRecN9b-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645.5" y="818" as="sourcePoint" />
+            <mxPoint x="771.5" y="818" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-61" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="41Fwgu2SaF-__aRecN9b-55" target="41Fwgu2SaF-__aRecN9b-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675.5" y="858" as="sourcePoint" />
+            <mxPoint x="801.5" y="858" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="518" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-63" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="41Fwgu2SaF-__aRecN9b-50" target="41Fwgu2SaF-__aRecN9b-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695.5" y="948" as="sourcePoint" />
+            <mxPoint x="485.5" y="1009" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="488" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-66" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="41Fwgu2SaF-__aRecN9b-62" target="41Fwgu2SaF-__aRecN9b-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865.5" y="1048" as="sourcePoint" />
+            <mxPoint x="715.5" y="1048" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="767" y="1024" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41Fwgu2SaF-__aRecN9b-67" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="41Fwgu2SaF-__aRecN9b-64" target="41Fwgu2SaF-__aRecN9b-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485.5" y="1186" as="sourcePoint" />
+            <mxPoint x="685.5" y="1242" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="1084" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
