@@ -56,4 +56,4 @@ Desain ulang website Shopee dalam program bootcamp kilat **GDG on Campus (GDGoC)
 ## Cuplikan Desain
 Silakan lihat detail desain di Figma dengan klik proyek masing-masing pada prototype utama.
 
-> Screenshot desain dapat dilihat di folder `/screenshots` (jika ingin ditambahkan ke repo nanti).
+> Screenshot desain dapat dilihat di link drive berikut : https://drive.google.com/drive/folders/12-nvA7cAzgqPPpFyQXc5UoFbY4BtSLKi?usp=sharing
