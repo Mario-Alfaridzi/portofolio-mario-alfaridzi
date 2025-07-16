@@ -1,4 +1,4 @@
-Deskripsi Singkat :
+### **Deskripsi Singkat** :
 Kertanegara Tours adalah sebuah website pemesanan wisata online yang saya rancang dan kembangkan sebagai proyek portofolio untuk menunjukkan kemampuan saya dalam membangun aplikasi web secara menyeluruh, mulai dari desain antarmuka hingga logika backend dan struktur database.
 
 Website ini memungkinkan pengguna untuk:
@@ -7,7 +7,7 @@ Website ini memungkinkan pengguna untuk:
 - Melihat riwayat pemesanan
 - Sementara admin dapat mengelola data paket wisata dan konfirmasi pemesanan
 
-**Fitur Utama:**
+### **Fitur Utama:**
 - Pencarian destinasi paket wisata
 - Formulir pemesanan dinamis
 - Tampilan Reservasi
@@ -15,10 +15,10 @@ Website ini memungkinkan pengguna untuk:
 - Heading dan footer futuristik
 - Desain responsif untuk mobile & desktop
 
-**Teknologi yang Digunakan:**
+### **Teknologi yang Digunakan:**
 - Frontend: HTML, CSS, JavaScript
 - Fitur : Reservasi perjalanan, dan cetak struk berbentuk pdf
 - Tools: VsCode
 
-Berikut Link Drive :
+### Berikut Link Drive :
 https://drive.google.com/drive/folders/1lUTHE3KJJLIGyWB_79KJtqxK-VWdK2pp?usp=drive_link
